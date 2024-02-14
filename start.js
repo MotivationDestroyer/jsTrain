@@ -133,7 +133,7 @@ switch (animalType) {
 
 (function () {
     let name = "Гав-Гав";
-    alert(name);
+    console.log(name);
 })();
 
 // Никаких конфликтов
