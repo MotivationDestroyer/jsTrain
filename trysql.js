@@ -31,4 +31,6 @@ const connection = mysql.createConnection({
    console.log(err);
    console.log(results);
 });
+let changeUser="Oleg";
+connection.query("UPDATE `users` SET `username`='" + changeUser + "' WHERE 1");
 connectMySqlClose();
