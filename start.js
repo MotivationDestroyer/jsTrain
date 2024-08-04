@@ -114,7 +114,7 @@ switch (animalType) {
 
 
   (function gora() {
-    console.log('бляяя фейс');
+    console.log('иифе функция');
   })();//это IIFE функция вызывается сразу после объявления
  
   /* 
